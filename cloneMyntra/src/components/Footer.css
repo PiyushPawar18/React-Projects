@@ -1,0 +1,34 @@
+.footer-container{
+    width:100vw;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 70%; 
+    margin:50px 0px;
+    display: flex;
+    gap:50px;
+}
+.footer div h3{
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: 700px;
+}
+.footer div ul{
+    margin-bottom: 20px;
+}
+.footer div ul li {
+    list-style:none;
+    margin-bottom: 5px;
+}
+.footer div ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#787878;
+}
+.footer div p {
+    font-size: 16px;
+    color:#787878;
+}

@@ -1,0 +1,28 @@
+.Men-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.Women-container{
+    margin-top: 80px;
+}
+.Error-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.Error-container button{
+    padding: 10px;
+    border:none;
+    background: #e8e8e8;
+    border-radius: 10px;
+}
+.Error-container button:active{
+    transform: scale(0.8)
+}
+h1{
+    text-align: center;
+}
