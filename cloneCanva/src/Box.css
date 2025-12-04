@@ -1,0 +1,61 @@
+.box-main{
+    width: 100%;
+    overflow: hidden;
+    padding:0rem 3rem 2rem 3rem;
+}
+.heading-box{
+    text-align: center;
+}
+.heading-box h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.heading-box p{
+    color: #282828;
+}
+.heading-box p a{
+    color:#4747f9;
+}
+.box-container{
+    width: 100%;
+    display: flex;
+    gap:2rem;
+    /* overflow:scroll;   */
+    overflow-x: auto;  /* enable horizontal scrolling */
+    overflow-y: hidden; /* hide vertical scrolling */
+    margin-top: 3rem;
+    scroll-behavior: smooth;
+}
+.box{
+    border-radius: 20px;
+    width:28%;
+    height:32rem;
+    background-color: #ccf0da;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.containt{
+    padding:2rem;
+}
+.containt h2{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+.containt button{
+    margin-top:2rem;
+    padding:1rem;
+    font-size: 1rem;
+    border:none;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
